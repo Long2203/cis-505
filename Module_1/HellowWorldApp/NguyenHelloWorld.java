@@ -4,7 +4,7 @@
     Modified by R. Krasso 2021
     Additional modifications by L. Nguyen Student 2023
 */ 
-public class CodeCommentExample01 {
+public class NguyenHelloWorld {
 
     /**
      * Method with two arguments, which are used to print the user's first and last name.
@@ -19,5 +19,5 @@ public class CodeCommentExample01 {
     public static void main(String[] args) {
         myName("Long", "Nguyen"); // Call the myName() method with the values "Long" and "Nguyen."
     } // end main
-} // end CodeCommentExample01
+} // end NguyenHelloWorld
 
