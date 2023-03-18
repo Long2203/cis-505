@@ -2,7 +2,7 @@
     Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: 
         Comprehensive Version (12th ed.). Pearson Education, Inc.
     Modified by R. Krasso 2021
-    Additional modifications by A. Student 2021
+    Additional modifications by L. Nguyen Student 2023
 */ 
 public class CodeCommentExample01 {
 
@@ -17,7 +17,7 @@ public class CodeCommentExample01 {
     } // end myName
 
     public static void main(String[] args) {
-        myName("Long", "Nguyen"); // Call the myName() method with the values "Richard" and "Krasso."
+        myName("Long", "Nguyen"); // Call the myName() method with the values "Long" and "Nguyen."
     } // end main
 } // end CodeCommentExample01
 
