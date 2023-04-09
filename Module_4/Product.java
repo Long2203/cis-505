@@ -50,8 +50,8 @@ this.price = price;
 @Override
 
 public String toString() {
-    return String.format(  "  Product code:"+code +
-    					 "\n  Description:"+description+
+    return String.format(  "  Product code: "+code +
+    					 "\n  Description: "+description+
     					 "\n  Price: $%,6.2f", price);
 }
 } //End Product

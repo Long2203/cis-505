@@ -40,7 +40,6 @@ public class TestBowlingShopApp {
                 default:
                     System.out.println("\n  Invalid option. Please try again.");// Print an error message for invalid choice
                     break;
-                    break;
             }
 	//
         } while (choice != 'x');// Continue the loop until the user chooses to exit
@@ -55,7 +54,6 @@ public class TestBowlingShopApp {
                 "    4. <x> To exit\n\n" +
                 "  Please choose an option: ");// Print the menu options for the user
             }
-    }
 
     public static void displayProducts(GenericQueue<Product> queue) {
     	while (queue.size() > 0) {// Loop through the products in the queue

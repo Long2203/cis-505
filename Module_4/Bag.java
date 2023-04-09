@@ -28,7 +28,6 @@ this.type = type;
 
 // Override the toString() method of the Product class to include the type of the Bag
 @Override
-@Override
 public String toString() {
 return super.toString() + "\n  Type: " + type;
 }

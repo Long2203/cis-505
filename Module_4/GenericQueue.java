@@ -20,4 +20,4 @@ public class GenericQueue<E> {
     public int size() {
         return list.size();
     }
-}
+} // End GenericQueue
