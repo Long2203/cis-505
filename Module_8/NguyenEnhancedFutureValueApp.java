@@ -74,7 +74,6 @@ import javafx.stage.Stage;
           pane.add(lblInterestRate, 0, 1); // adds "lblInterestRate" to "pane" at position (0,1)
           pane.add(txtInterestRate, 1, 1);// adds "txtInterestRate" to "pane" at position (1,1)
           cbYears.setMaxWidth(Double.MAX_VALUE); // sets the maximum width of "cbYears" to the maximum value of a double
-          cbYears.getItems().addAll(10,15,30); // get an items that addAll of "pane" to (10,15,30) respectively
           pane.add(lblInterestRateFormat, 1, 2);// adds "lblInterestRateFormat" to "pane" at position (1,2)
           pane.add(lblYears, 0, 3);// adds "lblYears to "pane" at position (0,3)
           pane.add(cbYears, 1, 3);// adds "cbYears" to "pane" at position (1,3)
@@ -89,12 +88,12 @@ import javafx.stage.Stage;
           lblInterestRateFormat.setTextFill(Color.RED);//Setting color of the Label lblInterestRateFormat to Red
           GridPane.setColumnSpan(txtResults, 2);//Setting column span of TextArea txtResults and adding it to the GridPane layout
           actionBtnContainer.getChildren().add(btnClear);
-	      actionBtnContainer.getChildren().add(btnCalculate);
-	      GridPane.setColumnSpan(lblFutureValueDate, 2);
+	  actionBtnContainer.getChildren().add(btnCalculate);
+	  GridPane.setColumnSpan(lblFutureValueDate, 2);
           pane.add(actionBtnContainer,1,4);
-	      pane.add(lblFutureValueDate,0,5);
+	  pane.add(lblFutureValueDate,0,5);
           pane.add(txtResults, 0, 8); // add "FutureVale" to "pane" at at position (0,8)
-          primaryStage.setTitle("Nguyen Enhanced Future Value App"); // set the title message "Nguyen Future value App"
+          primaryStage.setTitle("Nguyen Enhanced Future Value App"); // set the title message "Nguyen Enhanced Future value App"
           primaryStage.setScene(new Scene(pane, 400, 500)); //set screen to "pane" at size(400,500)
           primaryStage.show();
       }
