@@ -31,13 +31,13 @@ class GradeBookAppUI extends JFrame {
         students = new ArrayList<>();
 
         // Form Fields
-        JLabel firstNameLabel = new JLabel("First Name:");
+        JLabel firstNameLabel = new JLabel("FirstName: ");
         firstNameField = new JTextField(20);
-        JLabel lastNameLabel = new JLabel("Last Name: ");
+        JLabel lastNameLabel = new JLabel("LastName: ");
         lastNameField = new JTextField(20);
-        JLabel courseLabel = new JLabel("Course:       ");
+        JLabel courseLabel = new JLabel("Course: ");
         courseField = new JTextField(20);
-        JLabel gradeLabel = new JLabel("Grade:         ");
+        JLabel gradeLabel = new JLabel("Grade: ");
         gradeComboBox = new JComboBox<>(new String[]{"A", "B", "C", "D", "F"});
 
         // Buttons
