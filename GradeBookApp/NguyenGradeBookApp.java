@@ -37,7 +37,7 @@ class GradeBookAppUI extends JFrame {
         lastNameField = new JTextField(20);
         JLabel courseLabel = new JLabel("Course: ");
         courseField = new JTextField(20);
-        JLabel gradeLabel = new JLabel("Grade: ");
+        JLabel gradeLabel = new JLabel("Grade:  ");
         gradeComboBox = new JComboBox<>(new String[]{"A", "B", "C", "D", "F"});
 
         // Buttons
